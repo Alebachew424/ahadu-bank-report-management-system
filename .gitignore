@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Databases
+*.db
+*.sqlite3
+test.db
+*.sql
+
+# Logs
+logs/
+*.log
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Media
+backend/media/*
+!backend/media/.gitkeep
